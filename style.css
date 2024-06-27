@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background: linear-gradient(90deg, rgba(80,85,176,0.6726890585335696) 0%, rgba(9,71,117,0.45420166357558645) 40%, rgba(9,21,121,0.4289915795419731) 62%, rgba(77,0,255,0.29453779802936797) 82%);
+}   
+    .stopwatch{
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 25rem;
+    box-sizing: border-box;
+    border: 1rem #0000;
+    padding: 10px;
+    background-color:  rgba(77,0,255,0.294537798029367971);
+    padding: 100px 80px;
+    border-radius: 10%;
+}
+.stopwatch h1{
+    font-size: 60px;
+    color: #fff;
+}
+.button i{
+    font-size: 60px;
+    color: rgb(228, 37, 37);
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.button i:nth-child(1){
+    font-size: 45px;
+    color: aliceblue;
+}
+.button i:nth-child(3){
+    font-size: 45px;
+    color: aliceblue;
+}
